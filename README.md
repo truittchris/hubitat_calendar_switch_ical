@@ -1,4 +1,4 @@
-# HE iCal Switch
+# Hubitat Calendar Switch iCal
 
 A Hubitat device driver that monitors a public iCal / ICS calendar feed and maps calendar activity to a virtual switch.
 
