@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0] - 2026-01-31
+
+### Added
+- **Monthly Recurrence Support**: The driver now processes `FREQ=MONTHLY` rules.
+- **Relative Date Logic (BYDAY)**: Added support for monthly events defined by relative positions, such as:
+  - Specific instances: "2nd Monday of the month" (`2MO`)
+  - End-of-month instances: "Last Friday of the month" (`-1FR`)
+- **Monthly Interval Support**: Correctly handles intervals for monthly events (e.g., "Every 3 months").
+
+### Fixed
+- Fixed an issue where "Monthly Solution Advisory" and "Performance Goal" meetings from Outlook were being skipped with an `unsupported FREQ` error.
+- Improved the `RRULE` expansion loop to ensure monthly instances are generated within the configured `horizonDays` window.
+- Restored and optimized the `debugAdd` buffer logic to ensure character limits are respected while logging recurring event expansion.
+
 ## 1.0.0 – 2026-01-07
 
 * Initial public release of Hubitat Calendar Switch iCal
