@@ -1,5 +1,12 @@
 # Changelog
 
+
+## [1.2.1] - 2026-02-04
+
+### Fixed
+- **Outlook / Microsoft 365 timezones**: Maps Windows TZIDs (for example `Eastern Standard Time`) to IANA zones so event times don’t silently fall back to GMT.
+- Resolved an issue where some recurring events (including bi-weekly meetings) could appear “missing” because DTSTART/DTEND were shifted by an incorrect timezone.
+
 ## [1.2.0] - 2026-01-31
 
 ### Added

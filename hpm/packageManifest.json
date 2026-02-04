@@ -1,9 +1,9 @@
 {
   "packageName": "Hubitat iCal Switch",
   "author": "Chris Truitt",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "minimumHEVersion": "2.1.9",
-  "dateReleased": "2026-01-31",
+  "dateReleased": "2026-02-04",
   "licenseFile": "https://raw.githubusercontent.com/truittchris/hubitat_calendar_switch_ical/main/LICENSE",
   "releaseNotes": "Updated driver with latest improvements.",
   "documentationLink": "https://github.com/truittchris/hubitat_calendar_switch_ical#readme",

@@ -37,6 +37,7 @@ This driver is not:
 - Handles:
   - UTC (Z) timestamps
   - Calendar-level timezone hints (X-WR-TIMEZONE, VTIMEZONE)
+  - Windows / Outlook TZIDs (for example `Eastern Standard Time`) via mapping
   - Floating timestamps
 - Fine-grained event filtering:
   - Busy vs free
@@ -193,3 +194,10 @@ Free for public use.
 You may use, modify, and redistribute this driver provided attribution remains intact.
 
 Provided “as is” with no warranty.
+
+---
+
+## Versioning
+
+- GitHub releases follow semantic versioning (for example `v1.2.1`).
+- The driver publishes a `driverVersion` attribute so you can confirm what is installed on your hub.
